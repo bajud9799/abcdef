@@ -1,0 +1,149 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    font-family: ' 'roboto' sans-serif', sans-serif;
+}
+/*Deopkick*/
+.dk-selected {
+    border: none;
+}
+
+    .dk-selected:before {
+        content: none
+    }
+
+    .dk-selected:after {
+        border-left: none;
+        margin: 0;
+    }
+
+.dk-select .dk-selected::after {
+    content: url("../images/down-arrow-grey.svg");
+}
+
+.dk-select-open-down .dk-selected::after {
+    transform: rotate(180deg) !important;
+}
+
+
+
+.dk-select, .dk-select-multi {
+    display: block;
+    width: auto;
+}
+
+.dk-selected:hover, .dk-selected:focus {
+    outline: none;
+    border-color: #00acc1;
+}
+
+.dk-select-options .dk-option-highlight {
+    background-color: #00acc1;
+    color: #fff;
+}
+
+.dk-option-selected {
+    background-color: #00acc1;
+    color: #fff;
+}
+nav a {
+    font-size: 14px;
+    color: #00acc1;
+    margin: 10px;
+}
+
+    nav a:hover {
+        color: #00acc1;
+        text-decoration:underline !important
+    }
+nav form p {
+    color: #808080;
+}
+
+.login {
+    font-size: 14px;
+    color: #00acc1;
+    border: 1px solid #00acc1;
+}
+    .login:hover {
+        color: #00acc1;
+    }
+/* form */
+.project-details h1 {
+    color: #808080;
+}
+
+.project-details h2 {
+    font-size: 16px;
+    color: #00acc1;
+}
+
+.project-details .nextBtn {
+    background-color:#e53b51;
+    color: #fff
+}
+.stepwizard-step p {
+    margin-top: 0px;
+    color: #666;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    /*opacity: 1 !important;
+    filter: alpha(opacity=100) !important;*/
+}
+
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+    opacity: 1 !important;
+    color: #bbb;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-index: 0;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    color: #666;
+    background-color: #fff;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.final-btn{
+    color:#fff;
+    background-color:#e53b51
+}
+.final-btn :hover{
+    color:#fff !important;
+}
+.btn-show {
+    color: #fff;
+    background-color: #00acc1;
+}
